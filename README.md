@@ -38,6 +38,9 @@ Here i have shared the process and branching structure that i maintain for my an
 3. Feature branches are merged into dev branch.
 4. Only bugfixes, not new features, are merged into release branches. If development of a new feature needs to continue, it is merged into dev branch, not the release branch.
 
+** Git Workflow Diagram **![view](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/Git-FLow.png)
+
+
 ### Resources :
 1. [Git Setup & Configuration](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/GIT%20Setup_configuration.pdf)
 2. [Git Cheatsheet](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/git_cheatsheet.pdf)
