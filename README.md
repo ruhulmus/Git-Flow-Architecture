@@ -11,25 +11,25 @@ Git Work Flow Architecture for Git branching
 ### Process/Flow  :
 1. Depeloper pull the latest code from **Dev** branch
 2. Create a New Feature Branch (ex: user management)
-	3. Developer work locally and Push/Pull and commit to **feature** branches based on each feature 
-	4. Completed task/feature, tested and resolved all issues for this feature. 
-	5. Merge feature branch into **dev** branch.
-	6. Delete **feature** branch.
+	- Developer work locally and Push/Pull and commit to **feature** branches based on each feature 
+	- Completed task/feature, tested and resolved all issues for this feature. 
+	- Merge feature branch into **dev** branch.
+	- Delete **feature** branch.
 7. Create a New release branch by forking Dev branch ( Ex: release 2.1 - created by any senior developer)
-	8. Deployed to a staging server for QA testing
-	9. Bug resolved, changes or commit to release branch.
-	10. Deployed the latest code in the staging server.
-	11. Merged into **dev** branch and as well as **master** branch
-	12. Delete **release** branch
+	- Deployed to a staging server for QA testing
+	- Bug resolved, changes or commit to release branch.
+	- Deployed the latest code in the staging server.
+	- Merged into **dev** branch and as well as **master** branch
+	- Delete **release** branch
 13. Master branch :
-	14. **Master** branch has the latest code. Now need to tag with a version number in **master** branch (ex: 2.1) git tag -a v2.1 -m "my release 2.1"
-	15. Deployed to production server
+	-  **Master** branch has the latest code. Now need to tag with a version number in **master** branch (ex: 2.1) git tag -a v2.1 -m "my release 2.1"
+	-  Deployed to production server
 16. Create a new **Hotfix** branch by forking master branch:
-	17. Changes, resolve, tested and commit to hotfix branch
-	18. Once tested, must be merged into **master** and **dev** branch
-	19. Tagged again with a version number (ex: 2.1.1)  git tag -a v2.1.1 -m "release 2.1 bug resolved"
-	20. Deployed to production server
-	21. Delete **Hotfix** branch
+	-  Changes, resolve, tested and commit to hotfix branch
+	-  Once tested, must be merged into **master** and **dev** branch
+	-  Tagged again with a version number (ex: 2.1.1)  git tag -a v2.1.1 -m "release 2.1 bug resolved"
+	-  Deployed to production server
+	-  Delete **Hotfix** branch
 
 ### **References : **
 [Atlassian BitBucket - Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
