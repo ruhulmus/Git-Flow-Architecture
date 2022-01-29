@@ -1,4 +1,6 @@
-# Git-Flow-Architecture
+# Git Work Flow Architecture
+### Git Branching/Git Work Flow
+
 Git Work Flow Architecture is ideally suited for projects that have a scheduled release cycle. Actually Git workflows are nothing special. They are just a documented branching and integration strategy teams can adhere to in order to allow lots of people to work on a project together seamlessly.
 
 Here i have shared the process and branching structure that i maintain for my any projects.
