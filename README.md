@@ -31,4 +31,6 @@ Git Work Flow Architecture for Git branching
 	20. Deployed to production server
 	21. Delete **Hotfix** branch
 
-https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+### **References : **
+[Atlassian BitBucket - Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+[Vincent Driessen - A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model")
