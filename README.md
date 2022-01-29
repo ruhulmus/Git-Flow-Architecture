@@ -1,5 +1,5 @@
 # Git-Flow-Architecture
-Git Work Flow Architecture for Git branching
+Git Work Flow Architecture is ideally suited for projects that have a scheduled release cycle.
 
 ### **Structure of Branch Name :**
 1. **Feature** (Create branch for each feature like User Management,Project management)
@@ -30,6 +30,12 @@ Git Work Flow Architecture for Git branching
 	-  Tagged again with a version number (ex: 2.1.1)  git tag -a v2.1.1 -m "release 2.1 bug resolved"
 	-  Deployed to production server
 	-  Delete **Hotfix** branch
+
+### Summary:
+1. Master branch is the rolled out production code with tagged versions.  It's mean it's an final version of your Production Deployment.
+2. Only hotfix, and release branches get merged into master (Also dev branch if needed).
+3. Feature branches are merged into dev branch.
+4. Only bugfixes, not new features, are merged into release branches. If development of a new feature needs to continue, it is merged into dev branch, not the release branch.
 
 ### References : 
 [Atlassian BitBucket - Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
