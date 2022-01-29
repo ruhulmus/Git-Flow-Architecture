@@ -23,12 +23,12 @@ Here i have shared the process and branching structure that i maintain for my an
 	- Merged into **dev** branch and as well as **master** branch
 	- Delete **release** branch
 13. Master branch :
-	-  **Master** branch has the latest code. Now need to tag with a version number in **master** branch (ex: 2.1) git tag -a v2.1 -m "my release 2.1"
+	-  **Master** branch has the latest code. Now need to tag with a version number in **master** branch (ex: 2.1) *git tag -a v2.1 -m "my release 2.1"*
 	-  Deployed to production server
 16. Create a new **Hotfix** branch by forking master branch:
 	-  Changes, resolve, tested and commit to hotfix branch
 	-  Once tested, must be merged into **master** and **dev** branch
-	-  Tagged again with a version number (ex: 2.1.1)  git tag -a v2.1.1 -m "release 2.1 bug resolved"
+	-  Tagged again with a version number (ex: 2.2)  *git tag -a v2.2 -m "release 2.2 bug resolved"*
 	-  Deployed to production server
 	-  Delete **Hotfix** branch
 
@@ -37,6 +37,12 @@ Here i have shared the process and branching structure that i maintain for my an
 2. Only hotfix, and release branches get merged into master (Also dev branch if needed).
 3. Feature branches are merged into dev branch.
 4. Only bugfixes, not new features, are merged into release branches. If development of a new feature needs to continue, it is merged into dev branch, not the release branch.
+
+### Resources :
+1. [Git Setup & Configuration](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/GIT%20Setup_configuration.pdf)
+2. [Git Cheatsheet](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/git_cheatsheet.pdf)
+3. [Git Workflow Diagram](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/Git-FLow.pdf)
+
 
 ### References : 
 [Atlassian BitBucket - Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
