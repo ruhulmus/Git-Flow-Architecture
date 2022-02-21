@@ -1,4 +1,35 @@
 # Git Work Flow Architecture
+
+<p align="center">
+<img src="https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/Git-FLow.png" alt="Git-Flow-Architecture"/>
+<p/>
+
+<h4 align="center">Managing Branch using Git Work Flow Architecture </h4>
+
+<p align="center">
+<a href="https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/ruhulmus/Git-Flow-Architecture?style=flat-square" alt="Git-Flow-Architecture licence" />
+</a>
+<a href="https://github.com/ruhulmus/Git-Flow-Architecture/fork" target="blank">
+<img src="https://img.shields.io/github/forks/ruhulmus/Git-Flow-Architecture?style=flat-square" alt="Git-Flow-Architecture forks"/>
+</a>
+<a href="https://github.com/ruhulmus/Git-Flow-Architecture/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/ruhulmus/Git-Flow-Architecture?style=flat-square" alt="Git-Flow-Architecture stars"/>
+</a>
+<a href="https://github.com/ruhulmus/Git-Flow-Architecture/issues" target="blank">
+<img src="https://img.shields.io/github/issues/ruhulmus/Git-Flow-Architecture?style=flat-square" alt="Git-Flow-Architecture issues"/>
+</a>
+<a href="https://github.com/ruhulmus/Git-Flow-Architecture/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/ruhulmus/Git-Flow-Architecture?style=flat-square" alt="Git-Flow-Architecture pull-requests"/>
+</a>
+<a href="https://twitter.com/intent/tweet?text=👋%20Check%20this%20amazing%20repo%20https://github.com/ruhulmus/Git-Flow-Architecture,%20created%20by%20@rhulmus%20and%20friends%0A%0A%23DEVCommunity%20%23100DaysOfCode"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fruhulmus%2FGit-Flow-Architecture"></a>
+
+<p align="center">
+    <a href="https://github.com/ruhulmus/Git-Flow-Architecture/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/ruhulmus/Git-Flow-Architecture/issues/new/choose">Request Feature</a>
+</p>
+
 ### 👋  Git Branching/Git Work Flow to manage proper Branching
 
 Git Work Flow Architecture is ideally suited for projects that have a scheduled release cycle. Actually Git workflows are nothing special. They are just a documented branching and integration strategy teams can adhere to in order to allow lots of people to work on a project together seamlessly.
@@ -40,8 +71,6 @@ Here i have shared the process and branching structure that i maintain for my an
 2. Only hotfix, and release branches get merged into master (Also dev branch if needed).
 3. Feature branches are merged into dev branch.
 4. Only bugfixes, not new features, are merged into release branches. If development of a new feature needs to continue, it is merged into dev branch, not the release branch.
-
-**Git Workflow Diagram**![view](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/Git-FLow.png)
 
 
 ### 📒 Resources :
