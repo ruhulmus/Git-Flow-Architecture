@@ -1,18 +1,18 @@
 # Git Work Flow Architecture
-### Git Branching/Git Work Flow
+### 👋  Git Branching/Git Work Flow to manage proper Branching
 
 Git Work Flow Architecture is ideally suited for projects that have a scheduled release cycle. Actually Git workflows are nothing special. They are just a documented branching and integration strategy teams can adhere to in order to allow lots of people to work on a project together seamlessly.
 
 Here i have shared the process and branching structure that i maintain for my any projects.
 
-### **Structure of Branch Name :**
+### 🧱 **Structure of Branch Name :**
 1. **Feature** (Create branch for each feature like User Management,Project management)
 2. **Dev** (Serves as an integration branch for features)
 3. **Release** (Create branch for each release, it can be multiple feature or per Sprint wise delivery feature)
 4. **Master** (Master branch stores the official release history. Only Latest version code will be there)
 5. **Hotfix** (Create branch, if any minor change like field name, label name or any bug arise from production server)
 
-### Process/Flow  :
+### ⛹️‍♂️ Process/Flow  :
 1. Depeloper pull the latest code from **Dev** branch
 2. Create a New Feature Branch (ex: user management)
 	- Developer work locally and Push/Pull and commit to **feature** branches based on each feature 
@@ -35,7 +35,7 @@ Here i have shared the process and branching structure that i maintain for my an
 	-  Deployed to production server
 	-  Delete **Hotfix** branch
 
-### Summary:
+### ✔️ Summary:
 1. Master branch is the rolled out production code with tagged versions.  It's mean it's an final version of your Production Deployment.
 2. Only hotfix, and release branches get merged into master (Also dev branch if needed).
 3. Feature branches are merged into dev branch.
@@ -44,24 +44,27 @@ Here i have shared the process and branching structure that i maintain for my an
 **Git Workflow Diagram**![view](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/Git-FLow.png)
 
 
-### Resources :
+### 📒 Resources :
 1. [Git Setup & Configuration](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/GIT%20Setup_configuration.pdf)
 2. [Git Cheatsheet](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/git_cheatsheet.pdf)
 3. [Git Workflow Diagram](https://github.com/ruhulmus/Git-Flow-Architecture/blob/main/Git-FLow.pdf)
 
 
-### References : 
+### 📚 References : 
 [Atlassian BitBucket - Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 [Vincent Driessen - A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model")
 
 
-### 🤝 Contributing to `Git-Flow-Architecture`
+### 🤝  Contributing to `Git-Flow-Architecture`
 Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
 
 If you wish to contribute, you can work on any features [listed here](https://github.com/ruhulmus/Git-Flow-Architecture) or create one on your own. After adding your code, please send us a Pull Request.
 
 > Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+
+# 🛡️ License
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 <h3 align="center">
 A ⭐️ to <b>Git Flow Architecture</b> is must as a motivation booster.
