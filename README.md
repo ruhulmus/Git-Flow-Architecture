@@ -90,8 +90,6 @@ Any kind of positive contribution is welcome! Please help us to grow by contribu
 
 If you wish to contribute, you can work on any sections or create one on your own. After adding, please send me a Pull Request.
 
-> Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details of my [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to me.
-
 <h3 align="center">
 A ⭐️ to <b>Git Flow Architecture</b> is must as a motivation booster.
 </h3>
