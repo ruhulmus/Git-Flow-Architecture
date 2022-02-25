@@ -84,12 +84,6 @@ Here i have shared the process and branching structure that i maintain for my an
 
 [Vincent Driessen - A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model")
 
-
-### 🤝  Contributing to `Git-Flow-Architecture`
-Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
-
-If you wish to contribute, you can work on any sections or create one on your own. After adding, please send me a Pull Request.
-
 <h3 align="center">
 A ⭐️ to <b>Git Flow Architecture</b> is must as a motivation booster.
 </h3>
