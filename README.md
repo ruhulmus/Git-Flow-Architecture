@@ -29,7 +29,7 @@
     ·
     <a href="https://github.com/ruhulmus/Git-Flow-Architecture/issues/new/choose">Request Feature</a>
 </p>
-
+ 
 ### 👋  Git Branching/Git Work Flow to manage proper Branching
 
 Git Work Flow Architecture is ideally suited for projects that have a scheduled release cycle. Actually Git workflows are nothing special. They are just a documented branching and integration strategy teams can adhere to in order to allow lots of people to work on a project together seamlessly.
